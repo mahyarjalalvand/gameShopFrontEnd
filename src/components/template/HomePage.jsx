@@ -1,11 +1,20 @@
-import React from 'react'
+import React from "react";
+import Layout from "../../layouts/Layout";
+import { Link, useParams } from "react-router-dom";
 
 function HomePage() {
+  const params = useParams();
+  console.log(params);
   return (
-    <div>
+    <Layout>
+      <div className="bg-white">
 
-    </div>
-  )
+      homepage
+      <br />
+      <Link to="/prodact/2">Back to single 2</Link>
+      </div>
+    </Layout>
+  );
 }
 
-export default HomePage
+export default HomePage;
