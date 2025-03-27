@@ -1,6 +1,6 @@
 import { useRoutes } from "react-router-dom";
-import HomePage from "./components/template/HomePage";
-import Layout from "./layouts/Layout";
+// import HomePage from "./components/template/HomePage";
+// import Layout from "./layouts/Layout";
 import routes from "./routes";
 
 function App() {

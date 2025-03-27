@@ -4,15 +4,15 @@ import SingleProduct from "./components/template/singleProduct";
 let routes = [
   { path: "/", element: <HomePage /> },
   {
-    path: "/prodact",
+    path: "/product",
     element: (
       <div className="bg-white">
-        <h1>prodact</h1>
+        <h1>product</h1>
       </div>
     ),
   },
   {
-    path: "/prodact/:id",
+    path: "/product/:id",
     element: <SingleProduct />,
   },
 ];

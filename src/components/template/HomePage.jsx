@@ -7,12 +7,11 @@ function HomePage() {
   console.log(params);
   return (
     <Layout>
-      <div className="bg-white">
-
-      homepage
-      <br />
-      <Link to="/prodact/2">Back to single 2</Link>
-      </div>
+      {/* <div className="bg-white">
+        homepage
+        <br />
+        <Link to="/product/2">Back to single 2</Link>
+      </div> */}
     </Layout>
   );
 }
